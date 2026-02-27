@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:wght@100;400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sanjai's Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Sanjai Kumar E</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com/SANJAIKUMAR-123" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="http://linkedin.com/in/sanjai-kumar-e" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:sanjaikumarcse23@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!--SECTION-1 Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi,I'm Sanjai Kumar 👋</h2>
+                <p>I am a passionate Full Stack Developer with foundational knowledge in HTML, CSS, JavaScript, AngularJS, and Java. I enjoy building responsive web applications and continuously improving my programming skills. I am eager to learn new technologies, solve real-world problems, and grow as a developer in a challenging environment.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#resume">
+                        <i class="fa-solid fa-file-contract"></i>
+                        <span>Resume</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="sanjai.jpeg" alt="Image">
+            </div>
+        </section>
+        <!--SECTION-2 Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I possess foundational skills in front-end and back-end development, focusing on building responsive web applications. I continuously enhance my technical knowledge and strive to improve problem-solving and coding abilities.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="html.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="css.png.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="js.png" alt="js logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="angularjs.png" alt="angularjs logo">
+                    <span>Angular.js</span>
+                </div>
+
+                <div class="cell">
+                    <img src="java.png" alt="java logo">
+                    <span>Java</span>
+                </div>
+            </div>
+        </section>
+        <!--SECTION-3 Testimony-->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="sk.jpeg">
+                    <p>Sanjai Kumar E</p>
+                    <p>Aspiring Full Stack Developer</p>
+                </div>
+                <div class="text">
+                    "I am a dedicated and enthusiastic full stack developer who consistently works to improve his technical skills. He demonstrates strong problem-solving abilities and a willingness to learn new technologies. His attention to detail, positive attitude, and commitment to completing tasks make him a reliable and promising developer."
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="resume-section">
+            <h2>Resume</h2>
+            <div class="text">
+                Here is my resume.Click below!
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <a href="Resume_final.pdf">View</a>
+                </div>
+            </div>
+        </section>
+        <!--SECTION-4 Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    I am open to internships, freelance opportunities, and collaborative projects. Feel free to reach out to discuss development ideas, job opportunities, or technical collaborations. I am always eager to connect with professionals and grow my network. Let’s build innovative and impactful digital solutions together.
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea  id="message" rows="10" cols="30"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <!--SECTION-5:FOOTER-->
+        <footer>
+            <h2>Developed by : SANJAI KUMAR</h2>
+            &copy; <span>SK WEB DEVELOPER</span>
+            <p>For Queries. Contact:</p>
+            <p><i class="fa-solid fa-phone"></i> : +91 9876543210</p>
+        </footer>
+    </main>
+</body>
+</html>
